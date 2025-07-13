@@ -50,8 +50,6 @@ class c_ring{
 
 class c_pilar{
     public:
-        int heigth;
-        int width;
         c_ring* ringsOn[8] = {nullptr};
     
     void printPilar(){
@@ -97,8 +95,6 @@ bool pilarsCreate(int p_amount, int r_amount, int widestRing, c_pilar pilars[]){
     }
     for(int i = 0; i < p_amount; i++){
         c_pilar pilar;
-        pilar.heigth = r_amount + 1;
-        pilar.width = widestRing + 1;
         pilars[i] = pilar;
     }
     return true;
