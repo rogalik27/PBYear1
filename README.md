@@ -10,3 +10,5 @@ and to be ran after compiling using
 ```bash
 ./hanoi
 ```
+
+This program was only tested on Arch Linux with kernel version: Linux 6.15.6-arch1-1
