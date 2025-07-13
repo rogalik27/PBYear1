@@ -1,6 +1,6 @@
 #include <iostream>
 
-char* colors[] = {
+std::string colors[] = {
     "\033[31m", // Red
     "\033[32m", // Green
     "\033[33m", // Yellow
@@ -32,7 +32,7 @@ void printSplash(){
 class c_ring{
     public: 
         int size;
-        char* color;
+        std::string color;
 
     void printRing(){
         std::cout << color; 
