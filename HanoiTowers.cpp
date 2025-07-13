@@ -216,6 +216,7 @@ int main(){
     // pilarsPrint(amountPilars, pilars, widestRing);
     while(true){
         std::cout << "\033[2J\033[H";
+        printSplash();
         printNumbers(amountPilars, widestRing);
         pilarsPrint(amountPilars, pilars, widestRing);
         int from;
@@ -223,6 +224,7 @@ int main(){
         std::cout << "Where do you want to take the ring from?";
         std::cin >> from;
         std::cout << "\033[2J\033[H";
+        printSplash();
         printNumbers(amountPilars, widestRing);
         printArrows(amountPilars, widestRing);
         pilarsPrint(amountPilars, pilars, widestRing);
